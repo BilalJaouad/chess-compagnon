@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.onnx binary
+*.wasm binary
+*.png binary
+# Preserve upstream bytes so SHA-256 checks are identical on every platform.
+/extension/vendor/** -text -whitespace

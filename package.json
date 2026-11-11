@@ -1,0 +1,15 @@
+{
+  "name": "chess-compagnon",
+  "version": "1.4.1",
+  "private": true,
+  "description": "Local chess analysis with Stockfish and human-move predictions with Maia 3.",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "test": "node --test tests/core.test.js tests/research.test.js tests/play-profile.test.js",
+    "test:browser": "node tests/maia-extension.cjs",
+    "verify:assets": "node scripts/verify-assets.mjs"
+  },
+  "devDependencies": {"playwright": "1.61.1"}
+}

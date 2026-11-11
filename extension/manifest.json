@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Compagnon — Stockfish et Maia",
+  "version": "1.4.1",
+  "options_page": "research.html",
+  "icons": {"48":"icon48.png","128":"icon128.png"},
+  "description": "Suggestions et flèches sur Chess.com avec Stockfish ou Maia 3, calculées localement.",
+  "permissions": ["activeTab", "scripting", "storage", "offscreen"],
+  "action": {"default_title": "Afficher / masquer Chess Compagnon"},
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [
+    {"matches": ["https://www.chess.com/*", "https://chess.com/*"], "js": ["bridge.js"], "world": "MAIN", "run_at": "document_idle"},
+    {"matches": ["https://www.chess.com/*", "https://chess.com/*"], "js": ["content.js"], "run_at": "document_idle"}
+  ],
+  "content_security_policy": {"extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none'"},
+  "web_accessible_resources": [{"resources": ["core.js", "play-profile.js", "maia.js", "vendor/chess.js"], "matches": ["https://www.chess.com/*", "https://chess.com/*"]}]
+}

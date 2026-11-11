@@ -1,0 +1,61 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+.npmrc
+.pypirc
+.netrc
+credentials*
+secrets*
+
+# Browser data and local-only companion tools
+profil-edge/
+profil-chrome/
+profiles/
+user-data/
+User Data/
+maia-local/
+DEMARRER*.cmd
+REPARER*.cmd
+LISEZ-MOI.md
+
+# Dependencies and runtime output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+coverage/
+playwright-report/
+test-results/
+dist/
+artifacts/
+tests/*.png
+tests/*.jpg
+tests/*.webm
+*.zip
+*.crx
+
+# Imported/exported observations and browsing databases
+research-input*.json
+*research-report*.json
+Cookies*
+History*
+Login Data*
+Web Data*
+Preferences
+Secure Preferences
+Local State
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

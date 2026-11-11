@@ -1,0 +1,69 @@
+{
+  "assets": [
+    {
+      "path": "extension/vendor/chess.js",
+      "bytes": 107052,
+      "sha256": "76c7c34f0e2e9ab076521a5d6fe786a9cce537bb1b6f29d32a9c9970b5b232d2"
+    },
+    {
+      "path": "extension/vendor/LICENSE-chess.txt",
+      "bytes": 1315,
+      "sha256": "0b3a3c2b4432a26bb18f9d06f5bba4de015bcc980306b7db28b06025495e2186"
+    },
+    {
+      "path": "extension/vendor/LICENSE-stockfish.txt",
+      "bytes": 35821,
+      "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+    },
+    {
+      "path": "extension/vendor/maia/all_moves_maia3.json",
+      "bytes": 60074,
+      "sha256": "e3351a233174e99d9ddca981681b65a444d191e8a6b474e27bd8fad8514af8d7"
+    },
+    {
+      "path": "extension/vendor/maia/LICENSE-maia-platform.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "extension/vendor/maia/LICENSE-onnxruntime.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "extension/vendor/maia/maia3.onnx",
+      "bytes": 45683686,
+      "sha256": "405bf76c15727dad8728b352c06a8f3c1b80fb2760e8d666b32485c63d75b856"
+    },
+    {
+      "path": "extension/vendor/maia/ort-wasm-simd-threaded.mjs",
+      "bytes": 20321,
+      "sha256": "c0bc2244e2c95fbf39a5eccb595bca31defb9eefdffa6f9ce0325a1c47524461"
+    },
+    {
+      "path": "extension/vendor/maia/ort-wasm-simd-threaded.wasm",
+      "bytes": 11815498,
+      "sha256": "3260fcdb33b4fc4ec33e89caf392e13625823e01049d3bf32c38464f9dbfe14c"
+    },
+    {
+      "path": "extension/vendor/maia/ort.wasm.min.js",
+      "bytes": 49926,
+      "sha256": "aec37bf5b223afd8ac358e6647369c724cc08727c258760bb88e4f6ce69ab68f"
+    },
+    {
+      "path": "extension/vendor/maia/ThirdPartyNotices-onnxruntime.txt",
+      "bytes": 326866,
+      "sha256": "e9e90971a8e75a9a8ac0c6412e29c1202d079998389915aa485f46c816c3b4cc"
+    },
+    {
+      "path": "extension/vendor/stockfish-17.1-lite-single-03e3232.js",
+      "bytes": 20672,
+      "sha256": "1c8265e52fdaef797684b4979b42c5dcfe0350df3e11a87e48e4ec5f86e0ca5c"
+    },
+    {
+      "path": "extension/vendor/stockfish-17.1-lite-single-03e3232.wasm",
+      "bytes": 7280741,
+      "sha256": "7ca31bedd166148931a1cc84dbd8dd9cf001744e9994caf23a3c6ff4988d7086"
+    }
+  ]
+}
